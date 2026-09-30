@@ -1,0 +1,16 @@
+{
+  "name": "borozdov-palette",
+  "private": true,
+  "description": "A white workshop desk with pastel sticky notes: indigo, pink and amber cards on warm paper, one bold indigo accent.",
+  "license": "MIT",
+  "scripts": {
+    "lint": "stylelint theme.css",
+    "build": "node scripts/build.mjs",
+    "screenshots": "python3 scripts/screenshots.py"
+  },
+  "devDependencies": {
+    "lucide-static": "^1.47.0",
+    "stylelint": "^17.0.0",
+    "stylelint-config-obsidianmd": "^0.1.0"
+  }
+}
